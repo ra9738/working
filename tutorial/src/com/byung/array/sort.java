@@ -23,5 +23,8 @@ public class sort {
         for (final String[] s : data) {
             System.out.println(s[0] + " " + s[1]);
         }
+        
+        String myName = "Byung";
+        System.out.format("Hi %s%n", myName);
 	}
 }
